@@ -96,7 +96,13 @@ nav {
 .hotel-image img {
 	width: 100%; /*sets an element's width*/
 	border-radius: 12px; /*the border radius property incss used to round the corner of an element*/
+	transition: transform 0.3s ease; /*The transition property is a shorthand property for the following individual transition properties: transition-property, transition-duration, transition-timing-function, and transition-delay*/
 }
+
+.hotel-image img:hover {
+	transform: scale(1.10,1.05);
+}
+
 .hotel-info h3 {
 	font-weight: 600; /*the “value” placed on your font that will determine how bold or light your text will appear*/
 	color: #333;
